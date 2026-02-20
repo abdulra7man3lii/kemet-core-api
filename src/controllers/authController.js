@@ -1,4 +1,4 @@
-const { PrismaClient } = require('@prisma/client');
+const { PrismaClient } = require('kemet-shared');
 const bcrypt = require('bcryptjs');
 const { generateToken } = require('../utils/jwt');
 

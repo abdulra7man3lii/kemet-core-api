@@ -77,6 +77,6 @@ app.get('/', (req, res) => {
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(port, () => {
-    console.log(`Core API listening on port ${port}`);
+app.listen(port, '127.0.0.1', () => {
+    console.log(`Core API listening on 127.0.0.1:${port}`);
 });

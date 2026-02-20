@@ -1,4 +1,4 @@
-const { PrismaClient } = require('@prisma/client');
+const { PrismaClient } = require('kemet-shared');
 const prisma = new PrismaClient();
 
 // Get all pipeline stages for an organization
